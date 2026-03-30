@@ -21,4 +21,11 @@ A cross-platform mobile application that allows you to select photos from your d
 
 ## Screenshots
 
-![Home Screen](./assets/screenshot/Screenshot_1774831038.png)
+<p align="center">
+	<img src="./assets/screenshot/step-1.jpg" alt="Step 1" width="150" />
+	<img src="./assets/screenshot/step-2.jpg" alt="Step 2" width="150" />
+	<img src="./assets/screenshot/step-3.jpg" alt="Step 3" width="150" />
+	<img src="./assets/screenshot/step-4.jpg" alt="Step 4" width="150" />
+	<img src="./assets/screenshot/step-5.jpg" alt="Step 5" width="150" />
+	<img src="./assets/screenshot/step-6.png" alt="Step 6" width="150" />
+</p>
