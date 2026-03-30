@@ -50,6 +50,7 @@ const IndexScreen = () => {
   const onReset = () => {
     setShowAppOptions(false);
     setSelectedImage(null);
+    setPickedEmoji(undefined);
   };
   const onAddSticker = () => {
     setIsModalVisible(true);
@@ -74,6 +75,7 @@ const IndexScreen = () => {
       console.log("Local image URI: ", localImageUri);
       if (localImageUri) {
         alert("Saved to gallery!");
+        setPickedEmoji(undefined);
       }
     } catch (error) {
       alert("Failed to save image. Please try again.");
