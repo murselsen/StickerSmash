@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "StickerSmash",
-    "slug": "StickerSmash",
+    "slug": "stickersmash",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,11 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.murselsen.stickersmash"
     },
     "web": {
       "output": "static",
@@ -57,6 +61,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c97bda68-a9a3-4e4c-962c-211d62bdc904"
+      }
+    },
+    "owner": "murselsen"
   }
 }
