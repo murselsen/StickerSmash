@@ -1,9 +1,10 @@
 import { FontAwesome } from "@expo/vector-icons";
 import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
+
 interface ButtonProps {
   label: string;
-  theme?: "primary";
+  theme?: string;
   onPress?: () => void;
 }
 
@@ -39,7 +40,7 @@ const Button = ({ label, theme, onPress }: ButtonProps) => {
   }
   return (
     <View style={styles.buttonContainer}>
-      <Pressable style={styles.button}>
+      <Pressable style={styles.button} onPress={onPress}>
         <Text style={styles.buttonLabel}>{label}</Text>
       </Pressable>
     </View>
