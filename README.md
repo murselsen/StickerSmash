@@ -18,3 +18,7 @@ A cross-platform mobile application that allows you to select photos from your d
 - Expo Image Picker
 - Expo Media Library
 - React Native Gesture Handler (For sticker interactions)
+
+## Screenshots
+
+![Home Screen](./assets/screenshot/Screenshot_1774831038.png)
